@@ -137,7 +137,7 @@ img {
   /* text-transform: capitalize; */
 }
 
-.short{
+.short {
   width: 50%;
 }
 
@@ -155,7 +155,7 @@ img {
 }
 
 .foodclass {
-background-color: #20201F;
+  background-color: #20201f;
   display: flex;
   flex-direction: column;
 }
@@ -172,20 +172,73 @@ background-color: #20201F;
   color: #e3beb8;
 }
 
-.second-part{
+.second-part {
   padding: 24px;
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
-.dish-container{
+.dish-container {
   display: flex;
   flex-direction: column;
   gap: 25px;
   margin-top: 64px;
 }
+.about {
+  background-color: #1c1b1b;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+.first {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 1.2px;
+  color: #ffb4a8;
+}
 
+.legacy {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: 0;
+  color: #e5e2e1;
+  margin-bottom: 16px;
+  
+}
+
+.second {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29.25px;
+  color: #e3beb8;
+  margin-bottom: 16px;
+}
+.third {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #e3beb8;
+  margin-bottom: 16px;
+}
+
+a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1.2px;
+  text-transform: capitalize;
+  color: #e5e2e1;
+  text-decoration-color: #ffb4a8;
+  text-underline-offset: 4px;
+}
 
 @media (min-width: 768px) {
   nav {
@@ -210,14 +263,29 @@ background-color: #20201F;
     /* background-position: 0 15vh; */
     justify-content: center;
   }
-  .dish-container{
+  .dish-container {
     flex-direction: row;
   }
-  .dish-container img{
+  .dish-container img {
     height: 300px;
   }
-  .short{
+  .short {
     width: 100%;
+  }
+
+  .about {
+    flex-direction: row;
+  }
+
+  .dish4 {
+    width: 100%;
+  }
+  .legacy{
+    text-align: left;
+    width: 70%;
+  }
+  .first{
+    margin-bottom: 16px;
   }
 }
 
@@ -237,7 +305,10 @@ background-color: #20201F;
   .info {
     width: 50%;
   }
-  .dish-container img{
+  .dish-container img {
     height: 450px;
+  }
+  .about{
+    align-items: center;
   }
 }
