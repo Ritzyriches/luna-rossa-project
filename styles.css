@@ -50,7 +50,7 @@ nav a {
   display: flex;
   flex-direction: column;
   gap: 24px;
-  background-image: url("./image.png");
+  background-image: url("./bg-img.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   /* background-attachment: fixed; */
@@ -136,6 +136,11 @@ img {
   color: #e5e2e1;
   /* text-transform: capitalize; */
 }
+
+.short{
+  width: 50%;
+}
+
 .doll {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
@@ -150,8 +155,7 @@ img {
 }
 
 .foodclass {
-  color: #20201f;
-  text-align: center;
+background-color: #20201F;
   display: flex;
   flex-direction: column;
 }
@@ -167,6 +171,20 @@ img {
   line-height: 20px;
   color: #e3beb8;
 }
+
+.second-part{
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.dish-container{
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
 
 @media (min-width: 768px) {
   nav {
