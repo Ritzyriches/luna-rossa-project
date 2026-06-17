@@ -183,6 +183,7 @@ background-color: #20201F;
   display: flex;
   flex-direction: column;
   gap: 25px;
+  margin-top: 64px;
 }
 
 
@@ -209,6 +210,15 @@ background-color: #20201F;
     /* background-position: 0 15vh; */
     justify-content: center;
   }
+  .dish-container{
+    flex-direction: row;
+  }
+  .dish-container img{
+    height: 300px;
+  }
+  .short{
+    width: 100%;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -226,5 +236,8 @@ background-color: #20201F;
   }
   .info {
     width: 50%;
+  }
+  .dish-container img{
+    height: 450px;
   }
 }
