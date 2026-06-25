@@ -46,11 +46,7 @@
     margin-bottom: 16px;
   }
   .t1 {
-    flex-direction: column;
-    align-self: center;
-    width: 405.31px;
-    height: 56px;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 600;
   }
 
@@ -78,11 +74,8 @@
   }
   .t-all {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    justify-content: center;
     gap: 30px;
-    width: 672px;
-    margin-left: 15px;
   }
 
   .make {

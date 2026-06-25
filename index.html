@@ -81,6 +81,7 @@
           </article>
         </div>
       </section>
+
       <section class="about">
         <div class="dish4">
           <img src="images/dish4.png" alt="" />
@@ -107,6 +108,7 @@
           <a href="#">Discover our story</a>
         </div>
       </section>
+      
       <section class="testimonials">
         <h2 class="t1">Guest Experiences</h2>
 
@@ -163,7 +165,7 @@
           </p>
 
           <div class="form-box">
-            <form>
+            <form id="reserve">
               <div class="date-and-time">
                 <div>
                   <label for="date">Date</label>
@@ -171,15 +173,17 @@
                 </div>
                 <div>
                   <label for="time">Time</label>
-                  <input type="time" id="time" />
+                  <input type="time" id="time" required />
                 </div>
               </div>
               <div>
                 <label for="guest">Guest</label>
-                <input type="number" placeholder="Number of guest" id="guest" />
+                <input type="number" placeholder="Number of guest" id="guest" required />
               </div>
             </form>
-            <button class="red-button">confirm reservation</button>
+            <button class="red-button" type="submit" form="reserve">
+              confirm reservation
+            </button>
           </div>
         </div>
       </section>
