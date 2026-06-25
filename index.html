@@ -125,7 +125,7 @@
             <p class="t5">Food Critic</p>
           </article>
           <article class="t2">
-            <div class="timg"><img src="image2.png" alt="" /></div>
+            <div class="timg"><img src="images/image2.png" alt="" /></div>
             <div class="icon">
               <span>&#9733;&#9733;&#9733;&#9733;&#9733;</span>
             </div>
@@ -162,15 +162,24 @@
             Join us for an unforgettable evening of culinary artistry.
           </p>
 
-          <div class="buttonz">
-            <p>Date</p>
-            <input type="date">
-            <p>Time</p>
-            <input type="time">
-            <p>Guest</p>
-            <input type="number" placeholder="Number of guest">
-           
-            <button>confirm reservation</button>
+          <div class="form-box">
+            <form>
+              <div class="date-and-time">
+                <div>
+                  <label for="date">Date</label>
+                  <input type="date" id="date" required />
+                </div>
+                <div>
+                  <label for="time">Time</label>
+                  <input type="time" id="time" />
+                </div>
+              </div>
+              <div>
+                <label for="guest">Guest</label>
+                <input type="number" placeholder="Number of guest" id="guest" />
+              </div>
+            </form>
+            <button class="red-button">confirm reservation</button>
           </div>
         </div>
       </section>
@@ -190,10 +199,9 @@
           <h4>HOURS</h4>
           <p>Monday – Sunday 5:00 PM – 11:00 PM</p>
           <p>Bar remains open until 1:00 AM Friday & Saturday</p>
-          <H4>NEWSLETTER</H4>
+          <h4>NEWSLETTER</h4>
           <p>Stay informed about seasonal menus and private events.</p>
-          <BUtton>Email Address</BUtton>
-          
+          <button>Email Address</button>
         </div>
       </footer>
     </main>

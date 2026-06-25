@@ -84,4 +84,17 @@
     width: 672px;
     margin-left: 15px;
   }
+
+  .make {
+    padding: 64px;
+    margin-inline: auto;
+  }
+
+  .mar {
+    font-size: 3rem;
+  }
+
+  .date-and-time {
+    flex-direction: row;
+  }
 }

@@ -304,7 +304,7 @@ a {
 }
 
 .Re {
-  background-image: url(bk-img.png);
+  background-image: url("../images/bk-img.png");
   background-repeat: no-repeat;
   background-color: #2b2b29;
   height: 730px;
@@ -318,7 +318,7 @@ a {
 
 .make {
   background-color: #20201f;
-  height: 600px;
+  width: fit-content;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -336,13 +336,10 @@ a {
 .join {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
-  font-weight: 400;
   color: #e3beb8;
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+ margin-block: 20px;
   line-height: 24px;
-  width: 210px;
 }
 
 .step-1 p {
@@ -350,8 +347,48 @@ a {
   margin-top: 50px;
 }
 
-.buttonz {
-  width: 100px;
+.form-box {
+  /* width: 100%; */
+  padding-inline: 40px;
+  margin-block: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 23.5px;
+}
+
+form div,
+.date-and-time {
+  display: flex;
+  flex-direction: column;
+  gap: 8.5px;
+}
+
+label {
+  color: #e3beb8;
+  font-weight: 600;
+  font-size: 0.75rem;
+  font-family: "Montserrat", sans-serif;
+}
+
+input {
+  border-color: #5a403c;
+  border-width: 1px;
+  border-style: solid;
+  background-color: transparent;
+  padding: 9px 13px;
+  color: #e5e2e1;
+}
+
+.form-box button {
+  text-transform: uppercase;
+  width: 100%;
 }
 
 footer {
