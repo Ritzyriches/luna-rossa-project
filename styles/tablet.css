@@ -1,0 +1,87 @@
+@media (min-width: 768px) {
+  nav {
+    display: flex;
+  }
+  .hero-section div {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .info {
+    font-size: 1.1rem;
+  }
+  .red-button {
+    width: fit-content;
+  }
+  header {
+    justify-content: space-between;
+    padding-inline: 88px;
+  }
+  .hero-section {
+    height: 85vh;
+    /* background-position: 0 15vh; */
+    justify-content: center;
+  }
+  .dish-container {
+    flex-direction: row;
+  }
+  .dish-container img {
+    height: 300px;
+  }
+  .short {
+    width: 100%;
+  }
+
+  .about {
+    flex-direction: row;
+  }
+
+  .dish4 {
+    width: 100%;
+  }
+  .legacy {
+    text-align: left;
+    width: 70%;
+  }
+  .first {
+    margin-bottom: 16px;
+  }
+  .t1 {
+    flex-direction: column;
+    align-self: center;
+    width: 405.31px;
+    height: 56px;
+    font-size: 48px;
+    font-weight: 600;
+  }
+
+  .t2 {
+    width: 208px;
+    height: 511px;
+  }
+
+  .icon {
+    font-size: 1.8rem;
+  }
+
+  .t3 {
+    width: 144px;
+    margin-bottom: 24px;
+  }
+  .t4 {
+    margin-top: 100px;
+    width: 150px;
+    text-align: center;
+  }
+  .timg img {
+    width: 80px;
+    height: 80px;
+  }
+  .t-all {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 30px;
+    width: 672px;
+    margin-left: 15px;
+  }
+}
