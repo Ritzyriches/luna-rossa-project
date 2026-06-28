@@ -8,6 +8,13 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>LUNA ROSSA</title>
   </head>
   <body>
@@ -108,7 +115,7 @@
           <a href="#">Discover our story</a>
         </div>
       </section>
-      
+
       <section class="testimonials">
         <h2 class="t1">Guest Experiences</h2>
 
@@ -178,7 +185,12 @@
               </div>
               <div>
                 <label for="guest">Guest</label>
-                <input type="number" placeholder="Number of guest" id="guest" required />
+                <input
+                  type="number"
+                  placeholder="Number of guest"
+                  id="guest"
+                  required
+                />
               </div>
             </form>
             <button class="red-button" type="submit" form="reserve">
@@ -188,24 +200,40 @@
         </div>
       </section>
       <footer>
-        <div class="two">
-          <h2>LUNA ROSSA</h2>
-          <p class="p-one">
+        <div class="footers">
+          <h3>LUNA ROSSA</h3>
+          <p>
             Elevating Italian traditions through modern culinary vision since
             1982.
           </p>
+          <p class="socials">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-square-facebook"></i>
+          </p>
         </div>
-        <div class="two">
-          <h4>LOCATION</h4>
-          <p>123 Corso Vittorio Emanuele</p>
-          <p>II 00186 Roma, RM, Italy</p>
-          <p>+39 06 123 4567 ciao@lunarossa.it</p>
+        <div class="footers">
+          <h4 class="location">LOCATION</h4>
+          <p>123 Corso Vittorio Emanuele II</p>
+          <p class="number">00186 Roma, RM, Italy</p>
+          <p>+39 06 123 4567</p>
+          <p>ciao@lunarossa.it</p>
           <h4>HOURS</h4>
           <p>Monday – Sunday 5:00 PM – 11:00 PM</p>
           <p>Bar remains open until 1:00 AM Friday & Saturday</p>
           <h4>NEWSLETTER</h4>
           <p>Stay informed about seasonal menus and private events.</p>
-          <button>Email Address</button>
+        </div>
+        <form class="email">
+          <input type="email" placeholder="Email Address" required />
+          <button type="submit" class="submit-btn">&rarr;</button>
+        </form>
+        <div class="end">
+          <p class="luna">© 2024 Luna Rossa. All rights reserved.</p>
+          <div class="year">
+            <p>Privacy Policy</p>
+            <p>Terms of Service</p>
+            <p>Accessibility</p>
+          </div>
         </div>
       </footer>
     </main>

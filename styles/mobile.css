@@ -388,31 +388,82 @@ input {
 }
 
 footer {
-  width: 100%;
-  height: 900px;
-  background-color: #1c1b1b;
+   background-color: #1c1b1b;
   display: flex;
-  flex-direction: column;
+  flex-direction:column;
+  padding-inline: 48px;
+  padding-top: 70px;
 }
 
-.two p {
-  background-color: yellowgreen;
-  margin-bottom: 10px;
-}
-.two h4 {
-  color: #8b0000;
-  margin-bottom: 10px;
-  margin-top: 10px;
+.footers{
+  color: #E3BEB8;
+  padding-bottom:24px;
 }
 
-.two {
-  text-align: center;
-  margin: 25px;
+.footers h3{
+  color: #e5e2e1;
+  padding-bottom: 16px;
+  
 }
+
+h4{
+  color: #E5E2E1;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  padding-block: 16px;
+}
+
+p{
+  font-family: "Montserrat", sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+}
+
+
+.socials{
+  padding-block: 5px;
+}
+
+.number{
+  padding-bottom: 16px;
+}
+
 button {
   padding: 10px;
   width: 200px;
   border-color: rgb(105, 59, 59);
   background-color: transparent;
   color: #e5e2e1;
+}
+
+.email{
+  display: flex;
+  flex-direction:row;
+  padding-bottom: 80px;
+  gap:0;
+}
+
+.submit-btn{
+  background-color: #8b0000;
+  padding-right: 20px;
+}
+
+.year{
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.end{
+  color: #E3BEB8;
+  padding-bottom: 50px;
+}
+
+.luna{
+  font-weight: 200;
+  font-family: "Montserrat", sans-serif;
+  font-size:11px;
+  padding-bottom:5px;
+  padding-inline: 5px;
 }
