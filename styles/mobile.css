@@ -1,3 +1,10 @@
+:root {
+  --primary-color: #e5e2e1;
+  --secondary-color: #e3beb8;
+  --font-montserrat: "Montserrat", sans-serif;
+  --font-playfair: "Playfair Display", serif;
+}
+
 header {
   background-color: #131313e5;
   padding: 8px 48px;
@@ -388,82 +395,86 @@ input {
 }
 
 footer {
-   background-color: #1c1b1b;
-  display: flex;
-  flex-direction:column;
-  padding-inline: 48px;
-  padding-top: 70px;
+  background-color: #1c1b1b;
+  padding: 80px 38px;
+  height: 100%;
 }
 
-.footers{
-  color: #E3BEB8;
-  padding-bottom:24px;
-}
-
-.footers h3{
-  color: #e5e2e1;
-  padding-bottom: 16px;
-  
-}
-
-h4{
-  color: #E5E2E1;
-  font-family: "Montserrat", sans-serif;
+h3 {
   font-weight: 600;
-  font-size: 12px;
-  padding-block: 16px;
+  font-size: 24px;
+  font-family: var(--font-playfair);
+  color: var(--primary-color);
+  letter-spacing: 2.5px;
+  margin-bottom: 16px;
 }
 
-p{
-  font-family: "Montserrat", sans-serif;
-  font-size: 11px;
-  font-weight: 400;
+p {
+  font-family: var(--font-montserrat);
+  color: var(--secondary-color);
+  margin-bottom: 16px;
 }
 
-
-.socials{
-  padding-block: 5px;
+.luna-container {
+  margin-bottom: 24px;
 }
 
-.number{
-  padding-bottom: 16px;
-}
-
-button {
-  padding: 10px;
-  width: 200px;
-  border-color: rgb(105, 59, 59);
-  background-color: transparent;
-  color: #e5e2e1;
-}
-
-.email{
+.icon-container {
+  color: var(--secondary-color);
   display: flex;
-  flex-direction:row;
-  padding-bottom: 80px;
-  gap:0;
 }
 
-.submit-btn{
+.uppercase {
+  color: var(--primary-color);
+}
+
+.form-section {
+  margin-bottom: 80px;
+}
+
+.footer-input {
+  padding: 10px 16px;
+  border: 1px solid #5a403c;
+  color: #6b7280;
+  font-family: var(--font-montserrat);
+  width: 80%;
+}
+
+.footer-btn {
+  padding: 8px 8px;
   background-color: #8b0000;
-  padding-right: 20px;
+  width: fit-content;
 }
 
-.year{
+.footer-btn i {
+  color: #ff907f;
+}
+
+.form-cont {
   display: flex;
   flex-direction: row;
-  
+  gap: 0;
+  margin-bottom: 81px;
 }
 
-.end{
-  color: #E3BEB8;
-  padding-bottom: 50px;
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-family: var(--font-montserrat);
+  font-size: 11px;
 }
 
-.luna{
-  font-weight: 200;
-  font-family: "Montserrat", sans-serif;
-  font-size:11px;
-  padding-bottom:5px;
-  padding-inline: 5px;
+.footer-link{
+  display: flex;
+  gap: 8px;
+}
+
+.footer-copyryt{
+  font-family: var(--font-montserrat);
+  font-size: 11px;
+}
+
+.footer-part {
+  display: flex;
+  flex-direction: column;
 }
